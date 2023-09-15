@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Typing Website</title>
+    <!---Custom CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <img src="https://svgshare.com/i/m9L.svg" class="logo">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">SERVICE</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <div class="social-link">
+        <a href="#"><img src="https://svgshare.com/i/m91.svg"></a>
+        <a href="#"><img src="https://svgshare.com/i/m9E.svg"></a>
+        <a href="#"><img src="https://svgshare.com/i/m8h.svg"></a>
+        <a href="#"><img src="https://svgshare.com/i/m7k.svg"></a>
+      </div>
+    </nav>
+    <div class="text-box">
+      <h1>I'm <span class="auto-input">Jhon Smith</span></h1>
+      <p>Hi, I'm Jason a freelance web designer from San-Francisco.<br> I help brands turn their ideas into high quality products.</p>
+      <a href="#">Contact Me</a>
+      <a href="#" class="btn">Download CV</a>
+    </div>
+    <div class="hero">
+      <img src="https://i.ibb.co/0Qtk8j6/redd-pz-OUnvx9c1-E-unsplash-removebg-preview.png" class="user-img">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('.auto-input',{
+      strings: ["Jhon Smith", "Web Developer", "UI Designer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    })
+  </script>
+</body>
+</html>

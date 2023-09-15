@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  color: #fff;
+  padding:  0 8.5%;
+  position: relative;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0 10px;
+}
+.logo{
+  width: 45px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+  padding-right: 90px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  color: #130f49;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+nav ul li a:hover{
+  color: #34a1cd;
+}
+.social-link a img{
+  width: 25px;
+  margin-right: 30px;
+  transition: .3s;
+}
+.social-link a img:hover{
+  transform: translate(0px, -2px);
+}
+.text-box{
+  margin-top: 10%;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+.text-box h1{
+  font-size: 60px;
+  line-height: 160px;
+  color: #55527c;
+}
+.text-box h1 span.auto-input{
+  color: #34a1cd;
+}
+.text-box p{
+  color: #55527c;
+}
+.text-box a{
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 2px solid #34a1cd;
+  color: #34a1cd;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.text-box .btn{
+  background: #34a1cd;
+  color: #fff;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.hero{
+  display: inline-block;
+  position: absolute;
+  right: 8%;
+  bottom: 5%;
+  overflow: hidden;
+  border-radius: 100% 0px 100% 100%;
+  background-color: #d9f4ff;
+  width: 500px;
+  height: 500px;
+}
+.user-img{
+  width: 410px;
+  position: absolute;
+  right: -2%;
+  bottom: -1%;
+}
